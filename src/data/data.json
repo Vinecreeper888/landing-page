@@ -1,0 +1,61 @@
+{
+    "products": [
+      "Smart Builder",
+      "Smart Traffic",
+      "Smart Copy",
+      "Apps and Integrations",
+      "Landing Pages",
+      "Popups and Sticky Bars",
+      "Landing Page Templates",
+      "Smart Copy Templates",
+      "Product Security",
+      "How We Compare"
+    ],
+    "solutions": [
+      "Ecommerce",
+      "SaaS",
+      "Agency",
+      "Small Businesses",
+      "B2B Marketing",
+      "Professional Services",
+      "PPC",
+      "Social Ads",
+      "Email Marketing",
+      "Lead Generation"
+    ],
+    "company": [
+      "About Unbounce",
+      "Partner Program",
+      "Careers",
+      "Integrate with Us"
+    ],
+    "learn": [
+      "Watch Smart Builder Demo",
+      "What is Conversion Intelligence",
+      "Landing Page Basics",
+      "Blog",
+      "Resource Center",
+      "Landing Page Examples",
+      "How to Build a Landing Page"
+    ],
+    "getInTouch": ["Contact", "Demo", "Log In", "Help Center", "Community"],
+    "testimonials": [
+      {
+        "id":1,
+        "stars": 5,
+        "review": "Share a real testimonial that hits some of your benefits (but isn' too sales-y).",
+        "profilePic":"https://img.freepik.com/premium-photo/portrait-glamorous-beautiful-blond-woman-sunglasses-yellow-shirt-turquoise-background-carefree-summer_114963-9873.jpg",
+        "name": "Real name",
+        "location":"location"
+      },
+      {
+        "id":2,
+        "stars":4.5,
+        "review":"Include someone talking about how easy it was to sign up and participate",
+        "profilePic":"https://img.freepik.com/premium-photo/portrait-glamorous-beautiful-blond-woman-sunglasses-yellow-shirt-turquoise-background-carefree-summer_114963-9873.jpg",
+        "name":"Real name",
+        "location":"location"
+      }
+    ]
+  }
+  
