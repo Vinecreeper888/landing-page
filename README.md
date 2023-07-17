@@ -1,6 +1,10 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## It's live!
+Visit: https://landing-page-livid-xi.vercel.app/?vercelToolbarCode=AqWTVCGDY5elu0l
 
 ## Available Scripts
 
