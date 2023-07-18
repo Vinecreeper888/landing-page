@@ -3,13 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import StartRatingComponent from "./StarRatingComponent";
 import FeaturesCardComponent from "./FeaturesCardComponent";
 import TemplateFooter from "./TemplateFooter";
+import data from "../../../data/data.json";
 
 const TemplateItems = () => {
     return (
       <div className="grid grid-rows-1 overflow-y-auto overflow-x-hidden scroll-smooth">
         <div className="row-start-1 row-span-1">
             <div className="flex flex-col">
-                <img className="h-100 w-full" src="../../../images/laptop_lady.jpeg"/>
+                <img className="h-100 w-full" src="../../../images/laptop_lady.jpeg" alt="cover"/>
                 <div className="flex flex-col max-w-2xl">
                     <p className="flex absolute top-1/2 text-4xl ml-12 pl-10 font-templateHeading">MULTOR</p>
                     <span className="flex flex-col absolute top-1/2 mt-12 text-5xl ml-12 pl-10 font-templateHeading break-normal w-1/3 h-auto bg-cyan-100 bg-opacity-70">
@@ -120,7 +121,7 @@ const TemplateItems = () => {
                     <p className="flex justify-center text-lg font-sans"> understand your service (or just to hype 'em up).</p>
                 </div>
                 <div className="row-start-2 row-span-1 flex justify-center relative bottom-40">
-                    <img src="../../../images/video.png" className="flex flex-col h-auto w-auto"/>
+                    <img src="../../../images/video.png" alt="video-embed" className="flex flex-col h-auto w-auto"/>
                 </div>
                 <div className="grid grid-rows-2">
                     <div className="row-start-1 row-span-1">
@@ -131,7 +132,7 @@ const TemplateItems = () => {
                             <div className="col-start-1 col-span-1">
                                 <div className="grid grid-rows-3">
                                     <div className="row-start-1 row-span-1 flex justify-center mr-52">
-                                        <StartRatingComponent id={1}/>
+                                        <StartRatingComponent id={1} data={data}/>
                                     </div>
                                     <div className="row-start-2 row-span-1 flex justify-center relative bottom-5 left-14">
                                         <p className="w-2/3 font-sans text-xl italic">Share a real testimonial that hits some of your benefits (but isn' too sales-y).</p>
@@ -142,6 +143,7 @@ const TemplateItems = () => {
                                                 <img 
                                                     src="https://img.freepik.com/premium-photo/portrait-glamorous-beautiful-blond-woman-sunglasses-yellow-shirt-turquoise-background-carefree-summer_114963-9873.jpg"
                                                     className="h-12 w-15"
+                                                    alt="profile"
                                                 />
                                             </div>
                                             <div className="col-start-2 col-span-1">
@@ -172,6 +174,7 @@ const TemplateItems = () => {
                                                 <img 
                                                     src="https://img.freepik.com/premium-photo/portrait-glamorous-beautiful-blond-woman-sunglasses-yellow-shirt-turquoise-background-carefree-summer_114963-9873.jpg"
                                                     className="h-12 w-15"
+                                                    alt="profile2"
                                                 />
                                             </div>
                                             <div className="col-start-2 col-span-1">
@@ -198,7 +201,7 @@ const TemplateItems = () => {
                 <div className="row-start-2 row-span-1">
                     <div className="grid grid-cols-2 relative bottom-28 ml-52">
                         <div className="col-start-1 col-span-1 flex justify-end">
-                            <img src="../../../images/about.png" className="h-auto w-auto"/>
+                            <img src="../../../images/about.png" alt="about" className="h-auto w-auto"/>
                         </div>
                         <div className="col-start-2 col-span-1 mt-11 flex">
                             <div className="grid grid-rows-3 ml-10 h-40">

@@ -22,7 +22,7 @@ const StartRatingComponent = (props) => {
         for(let i = 0; i < intValue;i++) {
             stars.push(<FontAwesomeIcon icon={faStar} size="sm" className="text-[#43C2C5]"/>);
         }
-        stars.push(<FontAwesomeIcon icon={faStarHalfStroke} className="text-[#43C2C5]"/>);
+        stars.push(<FontAwesomeIcon icon={faStarHalfStroke} size="sm" className="text-[#43C2C5]"/>);
     }
     return(
         <div>
